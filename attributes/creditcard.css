@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.eg-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background-image: url(online-p1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.eg-container form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.eg-container form .eg-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.eg-container form .eg-row .eg-col{
+  flex:1 1 250px;
+}
+
+.eg-container form .eg-row .eg-col .eg-title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.eg-container form .eg-row .eg-col .eg-inputBox{
+  margin:15px 0;
+}
+
+.eg-container form .eg-row .eg-col .eg-inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.eg-container form .eg-row .eg-col .eg-inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.eg-container form .eg-row .eg-col .eg-inputBox input:focus{
+  border:1px solid #000;
+}
+
+.eg-container form .eg-row .eg-col .eg-flex{
+  display: flex;
+  gap:15px;
+}
+
+.eg-container form .eg-row .eg-col .eg-flex .eg-inputBox{
+  margin-top: 5px;
+}
+
+.eg-container form .eg-row .eg-col .eg-inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.eg-container form .eg-submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.eg-container form .eg-submit-btn:hover{
+  background: #2ecc71;
+}
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#backk{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #444444;
+    transition: all 0.2s ease;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+#backk:hover{
+    background: #000000;
+    transition: all 0.4s ease;
+    }

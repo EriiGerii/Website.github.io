@@ -1,0 +1,217 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.eg-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.eg-main-content {
+    padding: 40px 0;
+}
+
+.eg-sponsor-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.eg-sponsor-logo img {
+    max-width: 150px;
+    max-height: 70px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 73px;
+}
+.eg-container{
+    font-size: x-large;
+    font-weight: 600;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.eg-navbar{
+    background: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.search{
+display: flex;
+align-items: center;
+list-style: none;
+text-align: center;
+}
+.eg-navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+#navbar__logo{
+    background-color: aqua;
+    background-image: linear-gradient(to top, #0c08ff, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.eg-navbar__item{
+    height: 80px;
+}
+.eg-navbar__links{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%
+}
+.eg-navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.eg-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: rgb(110, 123, 240);
+    -webkit-text-fill-color: white;
+}
+.eg-button:hover{
+background: darkmagenta;
+transition: all 0.4s ease;
+}
+.eg-navbar__links:hover{
+    color: darkviolet;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width: 960px){
+.eg-navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0;
+
+.navbar__menu{
+ display: grid;
+grid-template-columns: auto;
+margin: 0;
+width: 100%;
+position: absolute;
+top: -1000px;
+opacity: 0; 
+transition: all 0.5s ease;
+height: 50vh;
+z-index: -1;
+background: black;
+}
+
+}
+.navbar__menu.active {
+    background: black;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5 ease;
+    z-index: 99;
+    height: 50vh;
+    font-size: 1.6rem;
+}
+#navbar__logo {
+    padding-left: 25px;
+}
+.eg-navbar__toggle .eg-bar{
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all ease 0.3s ease-in-out;
+    background: #fff; 
+}
+.eg-navbar__item {
+    width: 100%;
+}
+.eg-navbar__links {
+text-align: center;
+padding: 2rem;
+width: 100%;
+display: table;
+}
+#mobile-menu {
+position: absolute;
+top: 20%;
+right: 5%;
+transform: translate(5%, 20%);
+}
+.eg-navbar__btn {
+    padding-bottom: 2rem;
+}
+.eg-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    margin: 0;
+
+}
+.eg-navbar__toggle .eg-bar{
+    display: block;
+    cursor: pointer;
+}
+#mobile-menu.is-active .eg-bar:nth-child(2){
+    opacity: 0;
+}
+#mobile-menu.is-active .eg-bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+#mobile-menu.is-active .eg-bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+}

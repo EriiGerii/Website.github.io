@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.eg-main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body{
+background-image: url(val-b1.jpg);
+background-size: 100%;
+background-repeat: no-repeat
+}
+#backk{
+    color: white;
+    padding: 10px 22px;
+    border-radius: 6px;
+    background: rgb(127, 118, 167);
+    transition: all 0.2s ease;
+    font-size: large;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border-color: white;
+    cursor: pointer;
+}
+#backk:hover{
+    background: #6d39e7;
+    transition: all 0.4s ease;
+    }
+   

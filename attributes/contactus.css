@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.eg-main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eg-contact-info,
+.eg-contact-form {
+    width: 48%;
+}
+
+.eg-contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body{
+    background-image: url(contactus.f2.png);
+    background-repeat: no-repeat;
+    background-size: 123%;
+}
+#map-container {
+    width: 100%;
+    height: 500px; 
+    position: relative;
+    left: 250px;
+    
+}
+#backk{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: #444444;
+    transition: all 0.2s ease;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-color: white;
+    cursor: pointer;
+}
+#backk:hover{
+    background: #000000;
+    transition: all 0.4s ease;
+    }
+    @media screen and (max-width: 960px){
+        .eg-main-content{
+            display: flex;
+            flex-direction: column;
+        }
+        .eg-contact-info, .eg-contact-form {
+            width: 100%;
+        }
+        .eg-contact-form {
+            width: 80%;
+        }
+        #map-container{
+            display: flex;
+            left: 60px;
+        }
+        }
+
+    

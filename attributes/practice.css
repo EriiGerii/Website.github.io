@@ -1,0 +1,94 @@
+body{
+    background-image: url(background-b3.jpg);
+    background-size: 2400px;
+}
+.navbar{
+    background: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar__logo{
+    background-image: linear-gradient(to top, #0c08ff, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: darkviolet;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px; 
+    color: white;
+    border-radius: 6px;
+    background: #512da8;
+    transition: all 0.2s ease;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.button:hover{
+    background: darkviolet;
+    transition: all 0.4s ease;
+    }
+#layout{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.layout-item{
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    transition: 0.5s;
+}
+.layout-item:hover{
+    transform: scale(1.15);
+    border-radius: 20px;
+}
+#p-name{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+    margin-top: 0;
+}
+#p-desc {
+font-weight: 300;
+text-align: center;
+font-size: 15px;
+margin-top: 0;
+margin-bottom: 0;
+}
+#p-price{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0;
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 400px;
+}
+
